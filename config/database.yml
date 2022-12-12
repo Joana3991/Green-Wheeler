@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: green_wheeler_production
-  username: green_wheeler
-  password: <%= ENV["GREEN_WHEELER_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
