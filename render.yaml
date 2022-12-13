@@ -1,12 +1,12 @@
 databases:
   - name: mysite
-    databaseName: mysite
+    databaseName: green-wheeler
     user: mysite
     plan: free
 
 services:
   - type: web
-    name: mysite
+    name: green-wheeler
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
