@@ -1,6 +1,6 @@
 databases:
   - name: mysite
-    databaseName: green-wheeler
+    databaseName: mysite
     user: mysite
     plan: free
 
